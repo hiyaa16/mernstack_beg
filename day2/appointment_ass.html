@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .form{
+            width: 500px;
+            height: 700px;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="image">
+        <img src="./doc.webp"  align="left" width="500px">
+    </div>
+    <div class="form">
+         <h1 style="text-align: center;">Doctor Appointment Form</h1>
+         <hr color="red">
+            <br><br>
+        <form action="">
+            <label for="">Appointment Date </label>
+            <input type="date"> 
+            <br> <br>
+            <label for="">Appointment Time</label>
+            <input type="time"> 
+            <br><br>
+            <label for=""> Name</label>
+            <input type="text" placeholder="first">
+            <input type="text" placeholder="Last">
+            <br><br>
+            <label for="">Gender</label>
+            <input type="radio" name="Gender" > Male
+            <input type="radio" name="Gender" > Female
+            <br><br>
+            <label for="">Phone</label>
+            <input type="text" maxlength="10" placeholder="####">
+            <br><br>
+            <label for="">Address</label>
+            <input type="text" placeholder="city">
+            <input type="text" placeholder="State">
+            <br><br>
+            <label for="">Your Query</label>
+            <textarea cols="40" rows="2"></textarea>
+            <br><br>
+            <label for="">Appointment Type</label>
+            <h4 style="font-weight: lighter;"> Select which appointment type(s) you require</h4>
+            <input type="checkbox">
+            Cervix checkup <br>
+            <input type="checkbox">
+            Heart checkup <br>
+            <input type="checkbox">
+            Eye checkup <br>
+            <input type="checkbox">
+            Hearing test <br> <br>
+            <input type="submit" name="" id="">
+        </form>
+    </div>
+</body>
+</html>
