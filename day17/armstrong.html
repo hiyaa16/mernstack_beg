@@ -1,0 +1,45 @@
+<script>
+let num=prompt("enter number");
+let sp=num.split('');
+let len=num.length;
+let sum=0;
+
+
+let a=sp.map(function(n){
+     let n1=n**len
+     return n1
+});
+// console.log(a);
+
+a.forEach(function(number){
+        sum += number;
+        // console.log(sum)  
+        return sum;
+             
+     })
+if (sum==num)
+{
+    console.log("armstrong");
+}
+else{
+    console.log("not armstrong");
+}
+</script>
+
+
+
+<!-- <script>
+let num= 1634;
+let sum= 0;
+let str=num.toString()
+let len=str.length;
+for (let i=0; i<len; i++){
+    sum+= str[i]** len;
+}
+if(num===sum){
+    console.log("armstrong");
+}
+else{
+    console.log("not armstrong")
+}
+</script> -->

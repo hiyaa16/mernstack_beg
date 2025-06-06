@@ -1,0 +1,21 @@
+<!-- events are something that is done by user or browser like loading or clicking a button
+ kuch bhi change hona is an event
+ types:
+ mouse events-  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="document.getElementById('demo').innerHTML=Date()"> date</button> <br>
+    <p id="demo"></p> 
+
+    <div style="height: 100px;width: 100px; background-color: bisque;" id="demo1" onmouseout="document.getElementById('demo1').style.width='150px'"></div> <br>
+    <button onclick="document.getElementById('demo1').style.backgroundColor='blue'">click </button>
+   
+</body>
+</html>
